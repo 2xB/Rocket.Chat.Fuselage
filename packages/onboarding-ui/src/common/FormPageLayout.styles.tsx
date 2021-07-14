@@ -72,8 +72,9 @@ export const Title = styled('div')`
 `;
 
 export const Subtitle = styled('div')`
-  font-size: ${String(40 / 16)}rem;
-  line-height: ${String(42 / 16)}rem;
+  font-size: ${String(18 / 16)}rem;
+  font-family: ${sans};
+  line-height: ${String(42.5 / 16)}rem;
   text-align: center;
 
   @media (min-width: 1440px) {
